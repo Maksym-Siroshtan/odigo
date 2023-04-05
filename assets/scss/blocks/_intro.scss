@@ -1,0 +1,60 @@
+/*Intro styles start*/
+.intro {
+  min-height: 100vh;
+  background: url(../img/intro-bg-min.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 263px;
+  padding-bottom: 223px;
+  color: #fff;
+
+  &__title {
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 22px;
+  }
+
+  &__subtitle {
+    max-width: 546px;
+    margin-bottom: 59px;
+  }
+}
+
+.search-form {
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__field {
+    min-width: 297px;
+    background: transparent url(../img/svg/circle-ico.svg) no-repeat left 6px;
+    background-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+
+    &::placeholder {
+      font-weight: 500;
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+
+  &__submit {
+    padding: 15px 39px;
+    font-size: 24px;
+    border: 0;
+
+    &:hover, &:focus, &:active {
+      background: #145bba;
+    }
+  }
+}
+/*Intro styles end*/
